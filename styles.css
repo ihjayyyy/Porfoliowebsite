@@ -333,7 +333,7 @@ body{
 #proj1{
     text-align: center;
     color:#ffce2b;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     width: 100%;
     display: flex;
@@ -344,7 +344,7 @@ body{
 
 #proj1 img{
     padding-top: 20px;
-    width:75%;
+    width: 75%;
     margin: auto;
     height: 400px;
 }
@@ -352,7 +352,7 @@ body{
 #proj2{
     text-align: center;
     color:#ffce2b;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     width: 100%;
     display: flex;
@@ -371,7 +371,7 @@ body{
 #proj3{
     text-align: center;
     color:#ffce2b;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     width: 100%;
     display: flex;
@@ -449,6 +449,11 @@ body{
         font-size: 40px;
     }
 
+    #textsm li{
+        display: inline-block;
+        padding-right: 40px;
+    }
+
     #textsm a{
         font-size: 25px;
     }
@@ -461,31 +466,9 @@ body{
         font-size: 25px;
     }
 
-
     #ttle{
         font-size: 50px;
     } 
- 
-}
-
-@media screen and  (min-width:768px){
-
-    #img1{
-        width: 400px;
-    }
-
-    #abttxt{
-        font-size: 25px;
-        width: 100%;
-    }
-
-    #img3{
-        width:400px;
-    }  
-
-    #sklltxt{
-        font-size: 24px;
-    }
 
     #proj1{
         display: block;
@@ -509,20 +492,30 @@ body{
         width: 50%;
         height: 400px;
     }
-
-    #proj3{
-        display: block;
-    }
-
     #proj3 img{
         width: 30%;
         height: 400px;
     }
+ 
 }
 
-@media screen and  (min-width:806px){
-    #textsm li{
-        display: inline-block;
-        padding-right: 40px;
+@media screen and  (min-width:768px){
+
+    #img1{
+        width: 400px;
     }
+
+    #abttxt{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    #img3{
+        width:400px;
+    }  
+
+    #sklltxt{
+        font-size: 24px;
+    }
+
 }
