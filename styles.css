@@ -467,7 +467,6 @@ body{
     } 
 
     #proj1{
-        display: block;
         width: 50%;
         float: left;
     }
@@ -479,7 +478,6 @@ body{
     }
 
     #proj2{
-        display: block;
         width: 50%;
         float: right;
     }
@@ -495,13 +493,13 @@ body{
  
 }
 
-@media screen and  (min-width:768px){
+@media screen and  (min-width:806px){
 
     #textsm li{
         display: inline-block;
         padding-right: 40px;
     }
-    
+
     #img1{
         width: 400px;
     }
