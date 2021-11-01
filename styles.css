@@ -449,10 +449,6 @@ body{
         font-size: 40px;
     }
 
-    #textsm li{
-        display: inline-block;
-        padding-right: 40px;
-    }
 
     #textsm a{
         font-size: 25px;
@@ -501,6 +497,11 @@ body{
 
 @media screen and  (min-width:768px){
 
+    #textsm li{
+        display: inline-block;
+        padding-right: 40px;
+    }
+    
     #img1{
         width: 400px;
     }
