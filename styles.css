@@ -414,19 +414,14 @@ body{
     text-align: center;
 }
 
-#cont ul{
-    list-style: none;
-    word-spacing: 10px;
+.contacts{
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
 }
 
-#cont li{
-    padding-right: 40px;
-}
-
-
-#cont img{
-    width:25%;
-    margin: auto;
+.contacts img{
+    width: 100px;
 }
 
 #main-footer{
@@ -516,5 +511,5 @@ body{
     #sklltxt{
         font-size: 24px;
     }
-
+    
 }
